@@ -1,0 +1,28 @@
+.search {
+    position: relative;
+    width: 500px;
+}
+
+.input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 35px 5px 10px;
+    font-size: 18px;
+}
+
+.icon {
+    position: absolute;
+    width: 28px;
+    left: 465px;
+    top: 3px;
+}
+
+@media (max-width: 768px) {
+    .search {
+        width: 280px;
+    }
+
+    .icon {
+        left: 245px;
+    }
+}

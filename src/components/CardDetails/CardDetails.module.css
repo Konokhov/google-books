@@ -1,0 +1,52 @@
+.cardDetails {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blockImg {
+    height: 100%;
+    flex-grow: 1;
+    background-color: #f5f4f4;
+    padding: 20px;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.bookImg {    
+    width: 290px;
+    box-shadow: 13px 13px 18px 0 #9a9898;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 2;
+}
+
+.loading {
+    text-align: center;
+}
+
+@media (max-width: 740px) {
+    .cardDetails {
+        flex-direction: column;
+    }
+
+    .blockImg {
+        flex-grow: 0;
+    }
+
+    .bookImg {
+        width: 150px;
+    }
+
+    .info {
+        flex-grow: 0;
+    }
+}

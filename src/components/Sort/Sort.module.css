@@ -1,0 +1,16 @@
+.label {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.sort {
+    width: 150px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .sort {
+        width: 120px;
+    }
+}

@@ -1,0 +1,38 @@
+.card {
+    min-height: 100%;
+    background-color: #efefef;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+.itemImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+}
+
+.image {
+    width: 100px;
+    box-shadow: 13px 13px 18px 0 #9a9898;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.link {
+    color: #9a9898;
+}
+
+.author {
+    color: #9a9898;
+}
